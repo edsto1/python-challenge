@@ -1,3 +1,5 @@
+#Eddie Stokes PyBank HW3
+
 #import csv file
 import os
 import csv
@@ -20,8 +22,4 @@ print(f'Net Profit/Losses: {PLtotal}')
 print(f'Average Monthly Change: {AvgChange}')
 print(f'Greatest Increase: {AvgChangeMax}')
 print(f'Greatest Decrease: {AvgChangeMin}')
-
-
-    
-    
-    
+budget_pd.to_csv("estokes_hw3_pybank.txt", sep='\t', index=False)
